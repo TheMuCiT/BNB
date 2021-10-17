@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import { ReactComponent as LogoMain } from '../../icons/LogoMain.svg'
 import { ReactComponent as ButtonLogin } from '../../icons/ButtonLogin.svg'
@@ -6,7 +6,7 @@ import { ReactComponent as ButtonLogin } from '../../icons/ButtonLogin.svg'
 import './navbar.css'
 
 const Navbar = () => {
-     const [Mobile, setMobile] = useState(false)
+     const [Mobile] = useState(false)
      return (
           <div className='navbar'>
                <div className='navbarMobileButton'>
