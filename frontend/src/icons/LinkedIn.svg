@@ -1,0 +1,13 @@
+<svg id="Group_2662" data-name="Group 2662" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 50.702 50.702">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.035" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e00e48"/>
+      <stop offset="0.159" stop-color="#e86514"/>
+      <stop offset="0.322" stop-color="#fbda1b"/>
+      <stop offset="0.506" stop-color="#47af6d"/>
+      <stop offset="0.732" stop-color="#38b0e5"/>
+      <stop offset="1" stop-color="#81549a"/>
+    </linearGradient>
+  </defs>
+  <path id="linkedin_1_" data-name="linkedin (1)" d="M47.046,0H3.657A3.657,3.657,0,0,0,0,3.657V47.046A3.657,3.657,0,0,0,3.657,50.7H47.046A3.657,3.657,0,0,0,50.7,47.046V3.657A3.657,3.657,0,0,0,47.046,0ZM17.985,38.324H11.81V19.749h6.174ZM14.9,17.212h-.04a3.218,3.218,0,1,1,.081-6.418,3.219,3.219,0,1,1-.041,6.418Zm25.35,21.112H34.074V28.387c0-2.5-.894-4.2-3.128-4.2a3.38,3.38,0,0,0-3.168,2.258,4.228,4.228,0,0,0-.2,1.507V38.324H21.4s.081-16.833,0-18.575h6.174v2.63a6.129,6.129,0,0,1,5.564-3.066c4.062,0,7.108,2.655,7.108,8.36Zm0,0" transform="translate(0)" fill="url(#linear-gradient)"/>
+</svg>

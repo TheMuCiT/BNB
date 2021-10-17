@@ -1,0 +1,98 @@
+.accommodation {
+     margin-top: 200px;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 150px;
+}
+
+.accommodationContainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     max-width: 1430px;
+     width: 90%;
+}
+
+.accommodationMainText {
+     font-size: 110px;
+     font-weight: 500;
+     text-align: center;
+     color: white;
+     margin-bottom: 50px;
+}
+
+.accommodationSearch {
+     width: 90%;
+     height: 94px;
+     border-radius: 64px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+}
+
+.accommodationSearchSectionOne,
+.accommodationSearchSectionThird {
+     flex: 30%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.accommodationSearchSectionTwo {
+     flex: 20%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-right: 1px solid black;
+     border-left: 1px solid black;
+     height: 70%;
+}
+
+.accommodationSearchSectionSearch {
+     flex: 25%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 264px;
+     height: 84px;
+     border-radius: 64px;
+     margin-right: 5px;
+}
+
+.accommodationSearchSectionSearchBC {
+     z-index: 0;
+     position: absolute;
+}
+
+.accommodationSearchSectionSearchIcon {
+     display: flex;
+     z-index: 5;
+     align-items: center;
+     justify-content: center;
+     margin-right: 15px;
+}
+
+.accommodationSearchSectionSearchText {
+     color: white;
+     font-size: 18px;
+     z-index: 5;
+}
+
+.accommodationSearchSectionOneIcon {
+     margin-right: 10px;
+}
+
+.accommodationSearchSectionOneTitle {
+     color: #b1b1b1;
+     font-size: 13px;
+}
+
+.accommodationSearchSectionOneTitleText {
+     color: #000000;
+     font-size: 21px;
+}
