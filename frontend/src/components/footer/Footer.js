@@ -37,7 +37,7 @@ const Footer = () => {
                                    <Mail />
                               </div>
                          </div>
-                         <div className='footerLeftC'>&copy; All Rights reserved 2021 Tokenera</div>
+                         <div className='footerLeftC'>&copy; All Rights reserved 2021 Gay room rentals</div>
                     </div>
                     <div className='footerRight'>
                          <div className='footerRightColumn'>

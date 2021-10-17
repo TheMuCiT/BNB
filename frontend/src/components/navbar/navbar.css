@@ -81,6 +81,14 @@
      cursor: pointer;
 }
 
+.navbarRightIcon:hover {
+     transform: scale(1.05, 1.05);
+}
+
+.navbarRightIcon:active {
+     transform: scale(1.08, 1.08);
+}
+
 .navbarCenterIcon {
      width: 100px;
      position: relative;
