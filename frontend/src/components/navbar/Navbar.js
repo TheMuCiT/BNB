@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 import { ReactComponent as LogoMain } from '../../icons/LogoMain.svg'
-import { ReactComponent as ButtonLogin } from '../../icons/ButtonLogin.svg'
+
+import MainIMG from '../../images/Main.png'
 
 import './navbar.css'
 
@@ -9,6 +10,7 @@ const Navbar = () => {
      const [Mobile] = useState(false)
      return (
           <div className='navbar'>
+               <img src={MainIMG} alt='' className='MainImg' />
                <div className='navbarMobileButton'>
                     {/*<MobileMenu className={Mobile ? 'MobileDN' : 'Mobile'} />
                     <MobileMenuOpen className={Mobile ? 'Mobile' : 'MobileDN'} />*/}
@@ -31,7 +33,6 @@ const Navbar = () => {
                     </div>
                     <div className='navbarRight'>
                          <div className='navbarRightIcon'>
-                              <ButtonLogin className='navbarRightIconBC' />
                               <div className='navbarRightIconText'>Login</div>
                          </div>
                     </div>

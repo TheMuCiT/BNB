@@ -43,6 +43,7 @@
 }
 
 .strivingGrid3ElementText {
+     width: 70%;
      font-size: 16px;
      text-align: center;
      font-weight: 400;
@@ -95,5 +96,7 @@
      border-radius: 16px;
      font-size: 20px;
      color: white;
+     margin-top: 10px;
+     background-color: #5d98af;
      z-index: 5;
 }

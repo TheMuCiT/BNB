@@ -4,7 +4,7 @@ import Striving1 from '../../images/Striving1.png'
 import Striving2 from '../../images/Striving2.png'
 import Striving3 from '../../images/Striving3.png'
 import Striving2_1 from '../../images/Striving2-1.png'
-import Striving2_2 from '../../images/Striving2-1.png'
+import Striving2_2 from '../../images/Striving2-2.png'
 
 import './striving.css'
 const Striving = () => {
@@ -39,8 +39,8 @@ const Striving = () => {
                               </div>
                               <div className='strivingGrid3ElementTitle'>We Promote Efficiency</div>
                               <div className='strivingGrid3ElementText'>
-                                   Every advertisement and profile is vetted by our staff to ensure community
-                                   safety at all times.
+                                   Our easy-to-use platform and growing community will help you find the right
+                                   rental faster.
                               </div>
                          </div>
                     </div>

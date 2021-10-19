@@ -1,5 +1,4 @@
 .safety {
-     background-color: red;
      margin-top: 200px;
      display: flex;
      justify-content: center;
@@ -41,6 +40,8 @@
      width: 525px;
      height: 85px;
      margin: 25px 0;
+     background-color: #5d98af;
+     border-radius: 16px;
 }
 
 .safetyButton:hover {
@@ -51,17 +52,9 @@
      transform: scale(1.05, 1.05);
 }
 
-.safetyButtonBC {
-     position: absolute;
-     z-index: 0;
-}
-
-.safetyButtonBCIMG {
-     z-index: 0;
-}
-
 .safetyButtonText {
      color: white;
      z-index: 5;
-     font-size: 20px;
+     font-size: 26px;
+     font-weight: 500;
 }
