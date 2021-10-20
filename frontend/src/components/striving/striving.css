@@ -18,6 +18,7 @@
      font-size: 38px;
      font-weight: 500;
      margin-bottom: 100px;
+     text-align: center;
 }
 
 .strivingGrid3 {
@@ -32,7 +33,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: center;
+     justify-content: flex-start;
 }
 
 .strivingGrid3ElementTitle {
@@ -49,6 +50,14 @@
      font-weight: 400;
 }
 
+.strivingGrid3ElementIMGElement {
+     width: 100%;
+}
+
+.strivingGrid3ElementIMGElement2 {
+     width: 100%;
+}
+
 .strivingGrid2 {
      margin-top: 150px;
      display: flex;
@@ -58,40 +67,41 @@
 }
 
 .strivingGrid2Element {
-     flex: 50%;
+     flex: 40%;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     background-size: 688px 399px;
-     background-repeat: no-repeat;
      height: 399px;
+     position: relative;
 }
 
 .strivingGrid2ElementBC {
      z-index: 0;
-     position: absolute;
 }
 
 .strivingGrid2ElementTitle {
-     bottom: 50%;
-     left: 50%;
+     top: 30%;
      color: white;
      font-size: 34px;
      z-index: 5;
+     position: absolute;
 }
 
 .strivingGrid2ElementText {
+     top: 50%;
      font-size: 20px;
      color: white;
      z-index: 5;
+     position: absolute;
 }
 
 .strivingGrid2ElementButton {
+     top: 65%;
      display: flex;
      align-items: center;
      justify-content: center;
-     width: 60%;
+     width: 40%;
      height: 64px;
      border-radius: 16px;
      font-size: 20px;
@@ -99,4 +109,92 @@
      margin-top: 10px;
      background-color: #5d98af;
      z-index: 5;
+     position: absolute;
+}
+
+@media only screen and (max-width: 1550px) {
+     .strivingContainer {
+          width: 95%;
+     }
+}
+
+@media only screen and (max-width: 1200px) {
+     .strivingTitle {
+          font-size: 34px;
+     }
+
+     .strivingGrid3ElementTitle {
+          font-size: 26px;
+     }
+
+     .strivingGrid3ElementText {
+          font-size: 14px;
+     }
+
+     .strivingGrid2ElementTitle {
+          top: 25%;
+          font-size: 26px;
+     }
+
+     .strivingGrid2ElementText {
+          top: 40%;
+          font-size: 16px;
+     }
+
+     .strivingGrid2ElementButton {
+          top: 55%;
+          width: 40%;
+          height: 54px;
+          font-size: 16px;
+     }
+
+     .strivingGrid2Element {
+          height: 300px;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+     .strivingTitle {
+          font-size: 30px;
+     }
+
+     .strivingGrid3 {
+          flex-direction: column;
+     }
+
+     .strivingGrid3Element {
+          margin-bottom: 50px;
+     }
+
+     .strivingGrid2 {
+          flex-direction: column;
+     }
+
+     .strivingGrid2Element {
+          margin-bottom: 50px;
+     }
+}
+
+@media only screen and (max-width: 500px) {
+     .strivingTitle {
+          font-size: 24px;
+     }
+
+     .strivingGrid2ElementTitle {
+          top: 10%;
+     }
+
+     .strivingGrid2ElementText {
+          top: 35%;
+          font-size: 14px;
+          width: 80%;
+          text-align: center;
+     }
+
+     .strivingGrid2ElementButton {
+          top: 55%;
+          width: 40%;
+          height: 44px;
+          font-size: 16px;
+     }
 }

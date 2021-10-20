@@ -58,3 +58,55 @@
      font-size: 26px;
      font-weight: 500;
 }
+
+@media only screen and (max-width: 900px) {
+     .safetyBC {
+          width: 1400px;
+     }
+
+     .safetyButton {
+          width: 80%;
+          height: 75px;
+          margin: 20px 0;
+     }
+
+     .safetyTitle {
+          margin-top: 35px;
+          font-size: 40px;
+     }
+
+     .safetyText {
+          margin: 20px 0;
+          font-size: 16px;
+     }
+
+     .safetyButtonText {
+          font-size: 20px;
+     }
+}
+
+@media only screen and (max-width: 500px) {
+     .safetyBC {
+          width: 1200px;
+     }
+
+     .safetyButton {
+          width: 80%;
+          height: 65px;
+          margin: 15px 0;
+     }
+
+     .safetyTitle {
+          margin-top: 25px;
+          font-size: 36px;
+     }
+
+     .safetyText {
+          margin: 15px 0;
+          font-size: 14px;
+     }
+
+     .safetyButtonText {
+          font-size: 16px;
+     }
+}

@@ -9,12 +9,11 @@ body {
 }
 
 .MainImg {
-     z-index: -1;
+     z-index: -999;
      top: 0;
      text-align: center;
      position: absolute;
      opacity: 1;
-     width: 100%;
 }
 
 .App {
@@ -24,8 +23,31 @@ body {
 }
 
 .main {
-     z-index: 10;
      display: flex;
      flex-direction: column;
      justify-content: center;
+}
+
+.Ml20 {
+     margin-left: 20px;
+}
+
+.CurPoi {
+     cursor: pointer;
+}
+
+@media only screen and (max-width: 1450px) {
+     .MainImg {
+          width: 1450px;
+     }
+}
+@media only screen and (max-width: 1200px) {
+     .MainImg {
+          width: 1200px;
+     }
+}
+@media only screen and (max-width: 900px) {
+     .MainImg {
+          width: 1000px;
+     }
 }

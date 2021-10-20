@@ -16,7 +16,7 @@ const Accommodation = () => {
                          <img src={SearchPNG} alt='' className='accommodationSearchBC' />
                          <div className='accommodationSearchSectionOne'>
                               <div className='accommodationSearchSectionOneIcon'>
-                                   <Marker />
+                                   <Marker className='MarkerMobile' />
                               </div>
                               <div className='accommodationSearchSectionOneText'>
                                    <div className='accommodationSearchSectionOneTitle'>Location</div>
@@ -27,9 +27,16 @@ const Accommodation = () => {
                          </div>
                          <div className='accommodationSearchSectionSearch'>
                               <div className='accommodationSearchSectionSearchIcon'>
-                                   <Search />
+                                   <Search className='SearchMobile' />
                               </div>
                               <div className='accommodationSearchSectionSearchText'>Search</div>
+                         </div>
+                    </div>
+                    <div className='accommodationSearchMobile'>
+                         <img src={SearchPNG} alt='' className='accommodationSearchBCMobile' />
+                         <div className='accommodationSearchMobileInside'>
+                              <Search className='SearchInMobile' />
+                              <div className='accommodationSearchMobileText'>Search</div>
                          </div>
                     </div>
                </div>

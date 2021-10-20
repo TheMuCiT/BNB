@@ -15,7 +15,7 @@ const Striving = () => {
                     <div className='strivingGrid3'>
                          <div className='strivingGrid3Element'>
                               <div className='strivingGrid3ElementIMG'>
-                                   <img src={Striving1} alt='' />
+                                   <img src={Striving1} alt='' className='strivingGrid3ElementIMGElement' />
                               </div>
                               <div className='strivingGrid3ElementTitle'>We're All-inclusive</div>
                               <div className='strivingGrid3ElementText'>
@@ -25,7 +25,7 @@ const Striving = () => {
                          </div>
                          <div className='strivingGrid3Element'>
                               <div className='strivingGrid3ElementIMG'>
-                                   <img src={Striving2} alt='' />
+                                   <img src={Striving2} alt='' className='strivingGrid3ElementIMGElement' />
                               </div>
                               <div className='strivingGrid3ElementTitle'>We Prioritise Safety</div>
                               <div className='strivingGrid3ElementText'>
@@ -35,7 +35,7 @@ const Striving = () => {
                          </div>
                          <div className='strivingGrid3Element'>
                               <div className='strivingGrid3ElementIMG'>
-                                   <img src={Striving3} alt='' />
+                                   <img src={Striving3} alt='' className='strivingGrid3ElementIMGElement' />
                               </div>
                               <div className='strivingGrid3ElementTitle'>We Promote Efficiency</div>
                               <div className='strivingGrid3ElementText'>
@@ -47,7 +47,7 @@ const Striving = () => {
                     <div className='strivingGrid2'>
                          <div className='strivingGrid2Element'>
                               <div className='strivingGrid2ElementBC'>
-                                   <img src={Striving2_1} alt='' />
+                                   <img src={Striving2_1} alt='' className='strivingGrid3ElementIMGElement2' />
                               </div>
                               <div className='strivingGrid2ElementTitle'>I have a room</div>
                               <div className='strivingGrid2ElementText'>
@@ -57,7 +57,7 @@ const Striving = () => {
                          </div>
                          <div className='strivingGrid2Element'>
                               <div className='strivingGrid2ElementBC'>
-                                   <img src={Striving2_2} alt='' />
+                                   <img src={Striving2_2} alt='' className='strivingGrid3ElementIMGElement2' />
                               </div>
                               <div className='strivingGrid2ElementTitle'>I need a room</div>
                               <div className='strivingGrid2ElementText'>

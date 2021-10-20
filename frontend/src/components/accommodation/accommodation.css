@@ -3,6 +3,7 @@
      display: flex;
      justify-content: center;
      margin-bottom: 150px;
+     z-index: -1;
 }
 
 .accommodationContainer {
@@ -87,4 +88,134 @@
 .accommodationSearchSectionOneTitleText {
      color: #000000;
      font-size: 21px;
+}
+
+.accommodationSearchMobile {
+     display: none;
+}
+
+@media only screen and (max-width: 1450px) {
+     .accommodation {
+          margin-top: 50px;
+     }
+     .accommodationMainText {
+          font-size: 90px;
+     }
+}
+
+@media only screen and (max-width: 1200px) {
+     .accommodationMainText {
+          font-size: 70px;
+     }
+
+     .accommodation {
+          margin-top: 20px;
+     }
+
+     .accommodationSearch {
+          width: 500px;
+          height: 80px;
+     }
+
+     .accommodationSearchBC {
+          width: 600px;
+          height: auto;
+     }
+     .accommodationSearchSectionOneTitle {
+          font-size: 11px;
+     }
+
+     .accommodationSearchSectionOneTitleText {
+          font-size: 16px;
+     }
+
+     .accommodationSearchSectionSearch {
+          width: 244px;
+          height: 60px;
+     }
+     .accommodationSearchSectionSearchText {
+          font-size: 16px;
+     }
+
+     .SearchMobile {
+          width: 23px;
+     }
+
+     .MarkerMobile {
+          width: 23px;
+     }
+}
+
+@media only screen and (max-width: 900px) {
+     .accommodation {
+          margin-top: 5px;
+     }
+     .accommodationMainText {
+          font-size: 50px;
+     }
+}
+
+@media only screen and (max-width: 750px) {
+     .accommodationSearch {
+          display: none;
+     }
+
+     .accommodationSearchMobile {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 80%;
+     }
+
+     .accommodationSearchBCMobile {
+          width: 80%;
+          display: flex;
+          position: absolute;
+          z-index: 0;
+     }
+
+     .accommodationSearchMobileInside {
+          width: 100%;
+          z-index: 5;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+     }
+
+     .SearchInMobile {
+          margin-right: 10px;
+     }
+
+     .SearchInMobile path {
+          fill: black;
+     }
+
+     .accommodationSearchMobileText {
+          font-weight: normal;
+          font-size: 16px;
+     }
+}
+
+@media only screen and (max-width: 600px) {
+     .SearchInMobile {
+          width: 25px;
+     }
+     .accommodationSearchMobileText {
+          font-size: 14px;
+     }
+}
+
+@media only screen and (max-width: 500px) {
+     .accommodation {
+          margin-top: 5px;
+     }
+     .accommodationMainText {
+          font-size: 30px;
+     }
+     .SearchInMobile {
+          width: 20px;
+     }
+     .accommodationSearchMobileText {
+          font-size: 12px;
+     }
 }

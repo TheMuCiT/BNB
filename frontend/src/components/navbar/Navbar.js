@@ -1,25 +1,66 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { ReactComponent as LogoMain } from '../../icons/LogoMain.svg'
-
-import MainIMG from '../../images/Main.png'
+import { ReactComponent as LogoBlack } from '../../icons/LogoBlack.svg'
+import { ReactComponent as MobileMenu } from '../../icons/MobileMenu.svg'
+import { ReactComponent as Close } from '../../icons/Close.svg'
+import { ReactComponent as MobileMenuOpen } from '../../icons/MobileMenuOpen.svg'
 
 import './navbar.css'
 
 const Navbar = () => {
-     const [Mobile] = useState(false)
+     const [Mobile, setMobile] = useState(false)
+
+     useEffect(() => {
+          WindowChange()
+     }, [])
+
+     const HandleMobileMenu = () => {
+          setMobile(!Mobile)
+     }
+
+     const WindowChange = () => {
+          if (window.innerWidth > 1050) {
+               setMobile(false)
+          }
+     }
+
+     if (Mobile) {
+          const body = document.body
+          body.style.overflowY = 'hidden'
+     } else {
+          const body = document.body
+          body.style.overflowY = 'scroll'
+     }
+
+     window.addEventListener('resize', WindowChange)
+
      return (
           <div className='navbar'>
-               <img src={MainIMG} alt='' className='MainImg' />
-               <div className='navbarMobileButton'>
-                    {/*<MobileMenu className={Mobile ? 'MobileDN' : 'Mobile'} />
-                    <MobileMenuOpen className={Mobile ? 'Mobile' : 'MobileDN'} />*/}
+               <div className='navbarMobileButton' onClick={HandleMobileMenu}>
+                    <MobileMenu className={Mobile ? 'MobileDN' : 'Mobile'} />
+                    <MobileMenuOpen className={Mobile ? 'Mobile' : 'MobileDN'} />
                     <div className={Mobile ? 'navbarMenu active' : 'navbarMenu'}>
-                         <div className='navbarMobileTop'></div>
-                         <div className='navbarMobileMain'>
-                              <div className='navbarCenterLink'>mobile</div>
-                              <div className='navbarCenterLink'>mobile</div>
+                         <div className='navbarMobileTop'>
+                              <div className='navbarMobileTopLeft close'>
+                                   <Close className='Ml20 CurPoi' onClick={HandleMobileMenu} />
+                              </div>
+                              <div className='navbarMobileTopLeft'>
+                                   <LogoBlack className='CurPoi' />
+                              </div>
+                              <div className='navbarMobileTopLeft' />
                          </div>
+                         <div className='navbarMobileMain'>
+                              <div className='navbarCenterLink'>Rooms</div>
+                              <div className='navbarCenterLink'>Roomates</div>
+                              <div className='navbarCenterLink'>Info</div>
+                              <div className='navbarCenterLink'>Login</div>
+                         </div>
+                    </div>
+               </div>
+               <div className='navbarMobile'>
+                    <div className='navbarCenterIcon'>
+                         <LogoMain />
                     </div>
                </div>
                <div className='navbarContainer'>

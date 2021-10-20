@@ -35,7 +35,7 @@ const Footer = () => {
                               <div className='footerRightColumn'>
                                    <div className='footerRightTitle'>Blog</div>
                               </div>
-                              <div className='footerRightColumn' />
+                              <div className='footerRightColumn mobileNone' />
                          </div>
                          <div className='footerRightText'>
                               We think that all LGBTQ+ renters should be able to connect with welcoming housemates
