@@ -4,7 +4,6 @@ import { ReactComponent as LogoMain } from '../../icons/LogoMain.svg'
 import { ReactComponent as LogoBlack } from '../../icons/LogoBlack.svg'
 import { ReactComponent as MobileMenu } from '../../icons/MobileMenu.svg'
 import { ReactComponent as Close } from '../../icons/Close.svg'
-import { ReactComponent as MobileMenuOpen } from '../../icons/MobileMenuOpen.svg'
 
 import './navbar.css'
 
@@ -39,7 +38,6 @@ const Navbar = () => {
           <div className='navbar'>
                <div className='navbarMobileButton' onClick={HandleMobileMenu}>
                     <MobileMenu className={Mobile ? 'MobileDN' : 'Mobile'} />
-                    <MobileMenuOpen className={Mobile ? 'Mobile' : 'MobileDN'} />
                     <div className={Mobile ? 'navbarMenu active' : 'navbarMenu'}>
                          <div className='navbarMobileTop'>
                               <div className='navbarMobileTopLeft close'>
