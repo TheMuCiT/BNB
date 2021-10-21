@@ -4,7 +4,7 @@ body {
      font-family: 'Poppins', sans-serif;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
-     overflow-x: hidden;
+
      background-color: white;
 }
 
@@ -14,6 +14,8 @@ body {
      text-align: center;
      position: absolute;
      opacity: 1;
+     height: 1020px;
+     object-fit: cover;
 }
 
 .App {
@@ -38,16 +40,16 @@ body {
 
 @media only screen and (max-width: 1450px) {
      .MainImg {
-          width: 1450px;
+          width: 100%;
+          height: 755px;
+          object-fit: cover;
      }
 }
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 800px) {
      .MainImg {
-          width: 1200px;
-     }
-}
-@media only screen and (max-width: 900px) {
-     .MainImg {
-          width: 1000px;
+          width: 100%;
+          height: 410px;
+          object-fit: cover;
      }
 }
